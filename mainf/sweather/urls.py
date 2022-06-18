@@ -6,3 +6,5 @@ urlpatterns = [
 ]
 
 handler404 = 'sweather.views.page_not_found'
+
+handler500 = 'sweather.views.server_error'
