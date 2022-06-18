@@ -5,4 +5,4 @@ urlpatterns = [
     path('', views.index, name='index'),
 ]
 
-handler404 = 'posts.views.page_not_found'
+#handler404 = 'sweather.views.page_not_found'
